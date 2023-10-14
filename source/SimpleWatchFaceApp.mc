@@ -2,7 +2,7 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class pecodezWatchFaceApp extends Application.AppBase {
+class SimpleWatchFaceApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -18,7 +18,7 @@ class pecodezWatchFaceApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new pecodezWatchFaceView() ] as Array<Views or InputDelegates>;
+        return [ new SimpleWatchFaceView() ] as Array<Views or InputDelegates>;
     }
 
     // New app settings have been received so trigger a UI update
@@ -28,6 +28,6 @@ class pecodezWatchFaceApp extends Application.AppBase {
 
 }
 
-function getApp() as pecodezWatchFaceApp {
-    return Application.getApp() as pecodezWatchFaceApp;
+function getApp() as SimpleWatchFaceApp {
+    return Application.getApp() as SimpleWatchFaceApp;
 }

@@ -21,5 +21,25 @@ I only need to know if the status is Good, OK, or Low.
 
 ![Simple WatchFace](docs/watchface.png)
 
+## Limitations
+
+Its very simple, the clue is in the name :wink:
+
+Settings have not been fully configured, will add this feature soon....
+
+### Installation
+
+The app has not been submitted to Garmin so is not available from the IQ store.
+If you want to use it, download it, download the Garmin IQ SDK, and build it
+yourself.
+
+Currently only configured/tested for the following devices...
+
+- Vivoactive HR
+
+In the following languages...
+
+- English (UK)
+
 ---
 (c) copyright pecodez
